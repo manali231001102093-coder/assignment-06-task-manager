@@ -1,28 +1,28 @@
 Vercel CLI 59.20.0 (Node.js 20.17.0)
 Loading teams…
 
-  Directory       /media/deepdp/New Volume/Assingment/Saikat/assignment-06-task-manager
+  Directory       /media/deepdp/New Volume/Assingment/Manali/assignment-06-task-manager
 
 Searching for existing projects…
 
   Detected Vite (Build Command: vite build, Output Directory: dist)
 
-✓ Created         assingment1/assignment-06-task-manager
-> Connecting GitHub repository: https://github.com/saikatclgassigment2026-coder/assignment-06-task-manager
-Error: Failed to link saikatclgassigment2026-coder/assignment-06-task-manager. You need to add a Login Connection to your GitHub account first. (400)
+✓ Created         student-3709/assignment-06-task-manager
+> Connecting GitHub repository: https://github.com/manali231001102093-coder/assignment-06-task-manager
+Error: Failed to link manali231001102093-coder/assignment-06-task-manager. You need to add a Login Connection to your GitHub account first. (400)
 Visit https://vercel.com/docs/accounts/create-an-account#login-methods-and-connections for more information.
-Deploying assingment1/assignment-06-task-manager
-Uploading [--------------------] (0.0B/8.5KB)
-Uploading [=====---------------] (2.2KB/8.5KB)
-Uploading [====================] (8.5KB/8.5KB)
-  Inspect         https://vercel.com/assingment1/assignment-06-task-manager/B4msvcRawpAfsDbY9XLavY1NNAiF
-  Production      https://assignment-06-task-manager-6eut2znei-assingment1.vercel.app
+Deploying student-3709/assignment-06-task-manager
+Uploading [--------------------] (0.0B/9.2KB)
+Uploading [======--------------] (2.9KB/9.2KB)
+Uploading [====================] (9.2KB/9.2KB)
+  Inspect         https://vercel.com/student-3709/assignment-06-task-manager/2rK8GEeDsrtPEujgNL23Vafa13wC
+  Production      https://assignment-06-task-manager-9sp2hd3f1-student-3709.vercel.app
+Building…
 Building…
 Running build in Washington, D.C., USA (East) – iad1
 Build machine configuration: 2 cores, 8 GB
 Retrieving list of deployment files...
 Previous build caches not available.
-Downloading 33 deployment files...
 Downloading 33 deployment files...
 Running "vercel build"
 Vercel CLI 59.23.2
@@ -31,36 +31,19 @@ added 29 packages in 3s
 10 packages are looking for funding
 run `npm fund` for details
 Running "npm run build"
-[2K[1A[2K[G  Production      https://assignment-06-task-manager-6eut2znei-assingment1.vercel.app
-Completing…
-▲ Aliased         https://assignment-06-task-manager-eight.vercel.app
+> assignment-06-task-manager@0.0.0 build
+> vite build
+vite v8.3.0 building client environment for production...
+transforming...
 {
-  "status": "ok",
-  "deployment": {
-    "id": "dpl_B4msvcRawpAfsDbY9XLavY1NNAiF",
-    "url": "https://assignment-06-task-manager-6eut2znei-assingment1.vercel.app",
-    "inspectorUrl": "https://vercel.com/assingment1/assignment-06-task-manager/B4msvcRawpAfsDbY9XLavY1NNAiF",
-    "readyState": "READY",
-    "target": "production",
-    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_B4msvcRawpAfsDbY9XLavY1NNAiF"
-  },
-  "message": "Deployment assignment-06-task-manager-6eut2znei-assingment1.vercel.app ready.",
+  "status": "error",
+  "reason": "deploy_failed",
+  "message": "Command \"npm run build\" exited with 1",
   "next": [
     {
-      "command": "vercel git connect",
-      "when": "Automatically deploy changes on every push"
-    },
-    {
-      "command": "vercel curl https://assignment-06-task-manager-6eut2znei-assingment1.vercel.app",
-      "when": "Verify deployment, including when Deployment Protection is enabled"
-    },
-    {
-      "command": "vercel inspect assignment-06-task-manager-6eut2znei-assingment1.vercel.app",
-      "when": "Inspect deployment"
-    },
-    {
-      "command": "vercel deploy --prod",
-      "when": "Promote to production"
+      "command": "vercel deploy",
+      "when": "retry deploy"
     }
   ]
 }
+Error: Command "npm run build" exited with 1
